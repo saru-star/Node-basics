@@ -1,7 +1,7 @@
 const http=require('http')
 const {readFileSync}=require('fs')
 
-const landingpage=readFileSync('./public/index.html');
+const landingpage=readFileSync('./index.html');
 const styles= readFileSync('./public/index.css');
 const server=http.createServer((req,res)=>{
     const url=req.url;
