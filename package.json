@@ -1,15 +1,16 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
-    
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
   },
-  "devDependencies":{
+  "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "scripts":{
-    "start":"node server1.js",
-    "dev":"nodemon server1.js",
-    "dev2":"nodemon server2-express.js"
+  "scripts": {
+    "start": "node server1.js",
+    "dev": "nodemon server1.js",
+    "dev2": "nodemon server2-express.js",
+    "dev3":"nodemon 5-route-params.js",
+    "dev4":"nodemon 4-query-strings.js"
   }
-  
 }
